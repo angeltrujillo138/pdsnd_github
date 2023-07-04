@@ -19,6 +19,7 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!\n(Input is not case sensitive)')
     # get user input for city (Chicago, New York, Washington). HINT: Use a while loop to handle invalid inputs
+    # add global boolean variable continue_code to decide whether to continue with the report or not.
     global continue_code
     city=""
     month=""
