@@ -50,7 +50,8 @@ def get_filters():
     while True:
         #try:
         day = input('Please enter a valid month name, fron Sunday to Monday or all(All, Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday) or Quit:').title()
-        if day in ("All", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"):
+        if day in ("All", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday") or 
+           day in ("A","S","T","W","Th","F","S","Su"):
             break
         elif city.title() in ('Quit','Q'):
             return city,month, "No day selected"
